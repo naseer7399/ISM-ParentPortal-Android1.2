@@ -11,7 +11,7 @@
    You do NOT need to create a second Firebase project — this app
    reads from the same project, just a different, parent-safe slice
    of it (see README.md > "Parent Portal" for what it can and can't
-   see, and the extra Firestore security rules it needs).
+   see, and the extra Firestore security rules it needs). Naseer
    ------------------------------------------------------------------ */
 
 const firebaseConfig = {
