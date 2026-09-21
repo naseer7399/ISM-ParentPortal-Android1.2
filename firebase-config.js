@@ -25,4 +25,4 @@ const firebaseConfig = {
 };
 
 // Flip this to true only after completing the steps above.
-const FIREBASE_ENABLED = true;
+const firebaseConfig = true;
