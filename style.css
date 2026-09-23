@@ -210,7 +210,8 @@ button, input, select, textarea{ font-family: inherit; font-size: inherit; color
 .notif-title{ font-weight: 700; font-size: 13.5px; }
 .notif-time{ font-size: 11px; color: var(--ink-faint); white-space: nowrap; }
 .notif-msg{ font-size: 13.5px; color: var(--ink-soft); white-space: pre-wrap; }
-.notif-kind{ font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--primary); margin-bottom: 3px; }
+.notif-kind{ display: flex; align-items: center; gap: 5px; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--primary); margin-bottom: 3px; }
+.notif-kind svg{ width: 13px; height: 13px; flex-shrink: 0; }
 
 .empty-state{ text-align: center; padding: 40px 16px; color: var(--ink-faint); }
 .empty-state svg{ width: 36px; height: 36px; margin-bottom: 10px; opacity: .6; }
